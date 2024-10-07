@@ -13,23 +13,39 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+//Esistono 5 diversi datatype
+let EsStringhe = "oggi" //stringhe
+let EsNumeri = 7 //numeri
+let EsBoleani = true //Per identificare se la veridicità di una dichiarazione
+let EsUndefined // non ha assegnato alla variabile un valore
+let EsNull = null //non esiste un valore, valore inesistente 
+
+
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let myName = "valentina"
+console.log ("il mio nome", myName)
+
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let sum = 12+20 
+console.log ("addizione 12+20",sum )
+
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12
+console.log ("variabile x", x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -38,11 +54,21 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+myName="gargiulo"
+console.log ("il mio cognome", myName)
+
+//const myAge=24
+//myAge=25
+//console.log ("età", MyAge)
+
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let sottrazione = 4-x 
+console.log ("sottrazione", sottrazione)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -50,4 +76,16 @@ REGOLE
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John"
+const boolean1 = "john" !== "John"
+console.log ("vero", boolean1)
+//oppure 
+const boolean2 = "john" === "John"
+console.log ("falso",boolean2)
+
+
+
+
